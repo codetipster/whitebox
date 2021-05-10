@@ -20,5 +20,8 @@ follow the installation for heroku and heroku CLI here to install the latest ver
  within the Procfile, type in the following;
  `web: gunicorn main:app`
  i used `main` in the above command because my application root entry is called main.py, if yours is app.py then it should be called `app` or something else that you might ave chosen to call your application
+
+ Using `pip freeze > requirements.txt` to create a txt file that tells heroku what packages to install for deployment purposes
  
+
 
